@@ -28,9 +28,8 @@
         "actions":{
           "scsModules": {
             "modules": [
-              "LW-Website",
-              "LW-Website-Media",
-              "LW-IntegrationTests-Content",
+              "LW-Tests-Content",
+              "LW-Tests-Media",
               "HeadlessSxaWebsite-Media"
             ]
           },
@@ -60,5 +59,3 @@
         }
     }
 }
-
-
