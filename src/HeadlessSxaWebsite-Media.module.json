@@ -8,7 +8,13 @@
                 "name": "sxa-media",
                 "path": "/sitecore/media library/Project",
                 "scope": "descendantsOnly",
-                "allowedPushOperations": "CreateOnly"
+                "allowedPushOperations": "CreateOnly",
+                "rules": [
+                    {
+                        "path": "/LW",
+                        "scope": "ignored"
+                    }
+                ]
             }
         ]
     }
