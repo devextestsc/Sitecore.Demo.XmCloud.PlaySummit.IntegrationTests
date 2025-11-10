@@ -21,16 +21,16 @@
         "renderinghost",
         "InitItems",
         "HeadlessSxaWebsite",
-        "HeadlessSxaWebsite-Content",
-        "LW-Website",
-        "LW-Website-Media",
-        "LW-IntegrationTests-Content"
+        "HeadlessSxaWebsite-Content"
       ]
     },
     "postActions": {
         "actions":{
           "scsModules": {
             "modules": [
+              "LW-Website",
+              "LW-Website-Media",
+              "LW-IntegrationTests-Content",
               "HeadlessSxaWebsite-Media"
             ]
           },
@@ -60,4 +60,5 @@
         }
     }
 }
+
 
